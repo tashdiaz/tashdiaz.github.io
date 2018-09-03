@@ -16,8 +16,8 @@ const jokes = [
     answer: "Edi patalas<i>tash</i>."
   },
   {
-    question: "Anong <i>tash</i> ang kinakain?",
-    answer: "Edi pata<i>tash</i>."
+    question: "Anong <i>tash</i> ang masustansya?",
+    answer: "Edi mus<i>tash</i>a."
   }
 ]
 
