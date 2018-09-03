@@ -43,6 +43,5 @@ let randomize = function () {
 window.onload = randomize()
 
 anek.addEventListener('click', function () {
-  console.log('gago')
   randomize()
 })
