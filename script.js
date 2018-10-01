@@ -29,8 +29,8 @@ const anek = document.querySelector('button.anek')
 let randomize = function () {
   const question = document.querySelector('h2')
   const answer = document.querySelector('h1')
-  const wat = Math.round(Math.random() * 10) % jokes.length
-  const lel = Math.round(Math.random() * 10) % emojis.length
+  const wat = Math.round(Math.random() * (jokes.length - 1))
+  const lel = Math.round(Math.random() * (emojis.length - 1))
 
   question.innerHTML = jokes[wat].question
   answer.innerHTML = ""
