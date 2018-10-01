@@ -50,6 +50,4 @@ let randomize = function () {
 
 window.onload = randomize()
 
-anek.addEventListener('click', function () {
-  randomize()
-})
+anek.addEventListener('click', randomize)
