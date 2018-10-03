@@ -23,6 +23,11 @@ const jokes = [
     question: "Anong <i>tash</i> ang dapat sundin?",
     answer: "Edi ba<i>tash</i>."
   },
+  {
+    question: 'Ano ang mangyayari kay <i>Tash</i> pag namatay sa sya?",
+    answer: "Magiging <i>Tashper the friendly ghost</i> 👻",
+    skipEmoji: true
+  }
 ]
 
 const emojis = ["🤪", "😋", "😛", "💁"]
@@ -42,7 +47,12 @@ let randomize = function () {
   anek.style.display = 'none';
 
   nani.addEventListener('click', function () {
-    answer.innerHTML = `${jokes[wat].answer} ${emojis[lel]}`
+    const joke = jokes[wat]
+    answer.innerHTML = joke.answer
+    if (!joke.skipEmoji) {
+      answer.innerHTML += ' ' + emojis[lel]
+    }
+
     nani.style.display = 'none';
     anek.style.display = 'block';
   })
