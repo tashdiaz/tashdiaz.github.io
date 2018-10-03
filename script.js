@@ -24,7 +24,7 @@ const jokes = [
     answer: "Edi ba<i>tash</i>."
   },
   {
-    question: 'Ano ang mangyayari kay <i>Tash</i> pag namatay sa sya?",
+    question: 'Ano ang mangyayari kay <i>Tash</i> pag namatay sa sya?',
     answer: "Magiging <i>Tashper the friendly ghost</i> 👻",
     skipEmoji: true
   }
