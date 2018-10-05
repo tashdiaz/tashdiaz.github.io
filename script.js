@@ -18,6 +18,13 @@ const jokes = [
   {
     question: "Sinong <i>tash</i> ang makata?",
     answer: "Edi si Francisco Balag<i>tash</i>."
+  },
+    question: "Anong <i>tash</i> ang masustansya?",
+    answer: "Edi mus<i>tash</i>a."
+  },
+  {
+    question: "Anong <i>tash</i> ang dapat sundin?",
+    answer: "Edi ba<i>tash</i>."
   }
 ]
 
@@ -29,8 +36,8 @@ const anek = document.querySelector('button.anek')
 let randomize = function () {
   const question = document.querySelector('h2')
   const answer = document.querySelector('h1')
-  const wat = Math.round(Math.random() * 10) % jokes.length
-  const lel = Math.round(Math.random() * 10) % emojis.length
+  const wat = Math.round(Math.random() * (jokes.length - 1))
+  const lel = Math.round(Math.random() * (emojis.length - 1))
 
   question.innerHTML = jokes[wat].question
   answer.innerHTML = ""
@@ -46,7 +53,4 @@ let randomize = function () {
 
 window.onload = randomize()
 
-anek.addEventListener('click', function () {
-  console.log('gago')
-  randomize()
-})
+anek.addEventListener('click', randomize)
