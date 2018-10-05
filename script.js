@@ -14,6 +14,10 @@ const jokes = [
   {
     question: "Anong <i>tash</i> ang nakikita sa tv?",
     answer: "Edi patalas<i>tash</i>."
+  },
+  {
+    question: "Sinong <i>tash</i> ang makata?",
+    answer: "Edi si Francisco Balag<i>tash</i>."
   }
 ]
 
