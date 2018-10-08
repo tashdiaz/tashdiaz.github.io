@@ -23,6 +23,10 @@ const jokes = [
     answer: "Edi mus<i>tash</i>a."
   },
   {
+    question: "Anong <i>tash</i> ang favorite ng mga baby?",
+    answer: "Edit ga<i>tash</i>."
+  },
+  {
     question: "Anong <i>tash</i> ang dapat sundin?",
     answer: "Edi ba<i>tash</i>."
   },
