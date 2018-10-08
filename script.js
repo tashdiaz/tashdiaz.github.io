@@ -33,12 +33,16 @@ const jokes = [
   },
   {
     question: 'Ano ang mangyayari kay <i>Tash</i> pag namatay sa sya?',
-    answer: "Magiging <i>Tashper the friendly ghost</i> 👻",
+    answer: "Magiging <i>Tash</i>per the friendly ghost 👻",
     skipEmoji: true
   },
   {
     question: 'Anong <i>tash</i> ang sikat na kanta?',
-    answer: "Edi <i>tash</i> my body - Mariah Carey"
+    answer: "Edi <i>Tash</i> my body - Mariah Carey"
+  },
+  {
+    question: 'Sinong <i>Tash</i> ang na sa impyerno?',
+    answer: "Edi si <i>Tash</i>manian Devil <br> <img src='https://user-images.githubusercontent.com/74385/46606416-95af5f80-cb2f-11e8-9dcc-311358d3fdc6.png' width='100'>"
   }
 ]
 
