@@ -25,7 +25,7 @@ const jokes = [
   },
   {
     question: "Anong <i>tash</i> ang favorite ng mga baby?",
-    answer: "Edit ga<i>tash</i>."
+    answer: "Edi ga<i>tash</i>."
   },
   {
     question: "Anong <i>tash</i> ang dapat sundin?",
