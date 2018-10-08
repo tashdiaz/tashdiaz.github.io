@@ -10,7 +10,8 @@ body {
   background-color: #FDFDFD;
   color: #282828;
   text-align: center;
-  padding: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 @keyframes fadein {
@@ -54,10 +55,21 @@ button {
   letter-spacing: 0.12em;
   box-shadow: 0px 6px 36px #0003;
   outline: 0;
-  margin-top: 36px;
-  animation: fadein 300ms;
+  margin-top: 48px;
+  animation: fadein 400ms;
+  cursor: pointer;
+  transition: all 1000ms ease-in;
+}
+
+button:hover {
+  background: linear-gradient(to right, #d95172, #7f09a9);
 }
 
 .anek {
+  margin-top: 16px;
   background: linear-gradient(to right, #3FF3DD, #1FBBFE);
+}
+
+.anek:hover {
+  background: linear-gradient(to right, #26e1cb, #109ad6);
 }
