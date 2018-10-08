@@ -35,6 +35,10 @@ const jokes = [
     question: 'Ano ang mangyayari kay <i>Tash</i> pag namatay sa sya?',
     answer: "Magiging <i>Tashper the friendly ghost</i> 👻",
     skipEmoji: true
+  },
+  {
+    question: 'Anong <i>tash</i> ang sikat na kanta?',
+    answer: "Edi <i>tash</i> my body - Mariah Carey"
   }
 ]
 
