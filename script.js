@@ -22,6 +22,15 @@ const jokes = [
   {
     question: "Anong <i>tash</i> ang favorite ng mga baby?",
     answer: "Edit ga<i>tash</i>."
+  },
+  {
+    question: "Anong <i>tash</i> ang dapat sundin?",
+    answer: "Edi ba<i>tash</i>."
+  },
+  {
+    question: 'Ano ang mangyayari kay <i>Tash</i> pag namatay sa sya?',
+    answer: "Magiging <i>Tashper the friendly ghost</i> 👻",
+    skipEmoji: true
   }
 ]
 
@@ -33,8 +42,8 @@ const anek = document.querySelector('button.anek')
 let randomize = function () {
   const question = document.querySelector('h2')
   const answer = document.querySelector('h1')
-  const wat = Math.round(Math.random() * 10) % jokes.length
-  const lel = Math.round(Math.random() * 10) % emojis.length
+  const wat = Math.round(Math.random() * (jokes.length - 1))
+  const lel = Math.round(Math.random() * (emojis.length - 1))
 
   question.innerHTML = jokes[wat].question
   answer.innerHTML = ""
@@ -42,7 +51,12 @@ let randomize = function () {
   anek.style.display = 'none';
 
   nani.addEventListener('click', function () {
-    answer.innerHTML = `${jokes[wat].answer} ${emojis[lel]}`
+    const joke = jokes[wat]
+    answer.innerHTML = joke.answer
+    if (!joke.skipEmoji) {
+      answer.innerHTML += ' ' + emojis[lel]
+    }
+
     nani.style.display = 'none';
     anek.style.display = 'block';
   })
@@ -50,6 +64,4 @@ let randomize = function () {
 
 window.onload = randomize()
 
-anek.addEventListener('click', function () {
-  randomize()
-})
+anek.addEventListener('click', randomize)
