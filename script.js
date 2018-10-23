@@ -31,6 +31,10 @@ const jokes = [
   {
     question: 'Anong <i>tash</i> ang sikat na kanta?',
     answer: "Edi <i>tash</i> my body - Mariah Carey"
+  },
+  {
+    question: 'Anong <i>tash</i> ang mahirap na kalagayan?',
+    answer:  'Edi maging panakip bu<i>tash</i>! </3"
   }
 ]
 
