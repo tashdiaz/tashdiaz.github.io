@@ -34,7 +34,7 @@ const jokes = [
   },
   {
     question: 'Anong <i>tash</i> ang mahirap na kalagayan?',
-    answer:  'Edi maging panakip bu<i>tash</i>! </3"
+    answer:  'Edi maging panakip bu<i>tash</i>! </3'
   }
 ]
 
