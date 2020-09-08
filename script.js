@@ -47,6 +47,10 @@ const jokes = [
   {
     question: 'Sinong <i>Tash</i> ang na sa impyerno?',
     answer: "Edi si <i>Tash</i>manian Devil <br> <img src='https://user-images.githubusercontent.com/74385/46606416-95af5f80-cb2f-11e8-9dcc-311358d3fdc6.png' width='100'>"
+  },
+  {
+    question: 'Anong pangalan ng barber shop ni <i>Tash</i>?',
+    answer: 'Edi <i>Tabash</i>.'
   }
 ]
 
